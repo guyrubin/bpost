@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bpost CCoE Hub</title>
+    <style>
+        :root {
+            --primary-color: #da291c; /* bpost red */
+            --secondary-color: #333;
+            --background-color: #f7f7f7;
+            --card-bg: #ffffff;
+            --font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            margin: 0;
+            background-color: var(--background-color);
+            color: var(--secondary-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.4em;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            padding: 25px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eaeaea;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cloud Center of Excellence (CCoE) – bpost</h1>
+    <p>Governance. Architecture. Security. Cost. Delivered.</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>🔧 Platform Engineering</h2>
+        <ul>
+            <li><a href="#">Dev Portal Overview</a></li>
+            <li><a href="#">Service Catalog</a></li>
+            <li><a href="#">Terraform & IaC Modules</a></li>
+            <li><a href="#">CI/CD Standards</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📐 Solution Architecture</h2>
+        <ul>
+            <li><a href="#">Review Process</a></li>
+            <li><a href="#">Blueprints & Patterns</a></li>
+            <li><a href="#">API & Integration Models</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🔐 Cloud Security</h2>
+        <ul>
+            <li><a href="#">Security Guardrails</a></li>
+            <li><a href="#">Zero Trust Principles</a></li>
+            <li><a href="#">Policy Library</a></li>
+            <li><a href="#">NIST Compliance</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>💰 FinOps</h2>
+        <ul>
+            <li><a href="#">Cost Dashboards</a></li>
+            <li><a href="#">Optimization Playbooks</a></li>
+            <li><a href="#">Tagging Standards</a></li>
+            <li><a href="#">Forecast Reports</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📜 Governance & Policy</h2>
+        <ul>
+            <li><a href="#">Cloud Governance Model</a></li>
+            <li><a href="#">RACI & Roles Matrix</a></li>
+            <li><a href="#">Workflows & SOPs</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📘 Training & Knowledge</h2>
+        <ul>
+            <li><a href="#">How-to Videos</a></li>
+            <li><a href="#">CCoE FAQ</a></li>
+            <li><a href="#">Workshop Materials</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 bpost CCoE – Internal Use Only
+</footer>
+
+</body>
+</html>
